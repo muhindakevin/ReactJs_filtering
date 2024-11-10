@@ -1,4 +1,4 @@
-About the Group presentation is on this link    https://www.canva.com/design/DAGWD0O81Rw/LaO289kBhnTAU4kFERpc9Q/edit
+**About the Group presentation is on this link**    https://www.canva.com/design/DAGWD0O81Rw/LaO289kBhnTAU4kFERpc9Q/edit
 
 
 
