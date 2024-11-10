@@ -1,0 +1,63 @@
+/* src/components/MainContent.css */
+body{
+    background-color: aliceblue;
+}
+/* MainContent.css */
+.main-content {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: black; /* Make the title text black */
+  font-weight: bold; /* Optional: make the text bold for more emphasis */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  color: black; /* Make the paragraph text black */
+  font-weight: 400; /* Optional: adjust the font weight for a less bold look */
+  margin-bottom: 30px;
+}
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #61dafb;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #21a1f1;
+  }
+  .main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+.main-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.property-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+  

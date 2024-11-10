@@ -1,0 +1,65 @@
+/* Style for the header container */
+.header {
+  background-color: #333; /* Dark background for header */
+  color: white; /* White text color */
+  padding: 20px 40px; /* Padding around the header */
+  display: flex; /* Using flexbox to align items */
+  justify-content: space-between; /* Space between title and navigation */
+  align-items: center; /* Center align vertically */
+}
+
+.header h1 {
+  font-size: 2.5em; /* Make the title larger */
+  margin: 0; /* Remove default margin */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Display navigation links horizontally */
+}
+
+nav ul li {
+  margin-right: 20px; /* Add spacing between links */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin for last link */
+}
+
+nav a {
+  color: white; /* White text for links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.2em; /* Make the font slightly larger */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  color: #f0a500; /* Change color when hovering */
+}
+
+/* Responsive design: Mobile */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .header h1 {
+    font-size: 2em; /* Slightly smaller title on mobile */
+    margin-bottom: 10px; /* Space between title and navigation */
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack the nav links vertically on mobile */
+  }
+
+  nav ul li {
+    margin-bottom: 10px; /* Space between vertical links */
+  }
+
+  nav ul li:last-child {
+    margin-bottom: 0; /* Remove margin for the last link */
+  }
+}

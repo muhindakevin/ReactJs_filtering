@@ -1,0 +1,23 @@
+/* Service.css */
+.service-page {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .service-page h2 {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .service-page ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .service-page ul li {
+    font-size: 1.2em;
+    color: black;
+    margin: 10px 0;
+  }
+  

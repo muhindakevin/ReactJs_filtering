@@ -1,0 +1,17 @@
+/* Contact.css */
+.contact-page {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .contact-page h2 {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .contact-page p {
+    font-size: 1.2em;
+    color: black;
+  }
+  
